@@ -1,0 +1,58 @@
+@import '../../../assets/styles/scss/index.scss';
+
+.leftbody{
+    margin-left: 215px;
+    margin-top: 53px;
+    p{
+        font-family:$font-family-poppins;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color:$color-orange;  
+    }
+    &__title{
+        height: 140px;
+        width: 405px;
+        font-family:$font-family-poppins;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 70px;
+        color:$text-color-black;
+        span{
+            color: $color-green;
+        }
+    }
+    &__paragraph{
+        color: $text-color-grey;
+        width: 403px;
+        height:85px;
+        font-family:$font-family-poppins;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 36px;
+        margin-top: 19px;
+    }
+    button{
+        width: 153px;
+        height: 43px;
+        font-family:$font-family-roboto;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        background:$color-green;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 33px;
+        color: $color-white;
+        margin-top: 14px;
+        cursor: pointer;
+    }
+}
+.rightbody{
+    margin-right: 122px;
+    margin-left: 144px;
+    img{
+        width: 554px;
+        height: 346px;     
+    }
+}

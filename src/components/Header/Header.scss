@@ -1,0 +1,61 @@
+@import '../../assets/styles/scss/index.scss';
+
+.hero-section{
+    height: 576px;
+    width: 100%;
+    background-color:$header-background;
+    &__navbar{
+        display: flex; 
+        justify-content: space-between;
+        margin-right: 30px;
+        margin-left: 30px;
+        margin-top: 3px;
+        height: 125px;
+        &__navbar-left{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            height: 59px;
+            width: 198.07px;
+            margin-top: 25.97px;
+            margin-left: 192px;
+            font-family: $font-family-rubik;
+            font-weight: 700;
+            font-size: 24.8571px;
+            line-height: 29px;
+            color:$header-text-color;
+        }    
+        &__navbar-right{
+            @include flex-space-between;
+            width: 470px;
+            margin-right: 125px;
+            a{
+                text-decoration: none;
+                font-family:$font-family-poppins;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color:$text-color-black;
+            }
+            button{
+                width: 104px;
+                height: 43px;
+                background:$color-green;
+                border-radius: 33px;
+                color:$color-white;
+                font-family:$font-family-roboto;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                border: 0ch;
+                margin-right: 29px;
+                cursor: pointer;
+            }
+        }
+    }
+    &__body{
+        display: flex;
+        justify-content: space-around;
+    }
+}
