@@ -3,6 +3,7 @@
 .card{
     margin-inline: 135px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
     margin-top: 45px;

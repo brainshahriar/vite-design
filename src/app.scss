@@ -19,4 +19,23 @@ h1{
     justify-content: center;
     gap:29px;
     margin-inline:135px;
+    margin-top: 62px;
+}
+.testimonial-div{
+    @include flex-center;
+    img{
+        width: 120px;
+        height: 120px;
+        border-radius: 60%;
+    }
+    p{
+        width: 583px;
+        font-family:$font-family-poppins;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        color:$text-color-black;
+        margin-left: 52px;
+    }
 }

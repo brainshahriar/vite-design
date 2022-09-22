@@ -1,0 +1,39 @@
+@import '../../assets/styles/scss/index.scss';
+
+.footer{
+    height: 369px;
+    background: $text-color-black;
+    margin-top: 106px;
+    &__top{
+        display: flex;
+        justify-content: space-around;
+        &__text{
+            width: 366px;
+            color:$color-white;
+            font-family: $font-family-poppins;
+            font-weight: 400;
+            font-size: 16px;
+            margin-top: 55px;
+            margin-left: 142px;
+        }
+        p{
+            color:$color-white;
+            font-family: $font-family-poppins;
+            font-weight: 400;
+            font-size: 16px;
+            margin-top: 55px;
+            width: 123px;
+
+        }
+    }
+    &__bottom{
+            @include flex-center;
+            color:$text-color-grey;
+            font-family:$font-family-poppins;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            margin-top: 85px;
+            // margin-bottom:27px ;
+    }
+}

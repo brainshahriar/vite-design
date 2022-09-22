@@ -42,7 +42,51 @@
     border-radius: 33px;
     border: 0ch;
     color: $color-white;
-    margin-top: 19px;
+    // margin-top: 19px;
     margin-left: 23px;
+    }
+    &__footer{
+        display: flex;
+        justify-content: space-between;
+        &__left{
+            display: flex;
+            
+            img{
+                width: 24px;
+                height: 24px;
+                margin-left: 19px;
+                margin-top: 33px;
+            }
+            p{
+                font-family:$font-family-poppins;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                color:$text-color-grey;
+                margin-left: -15px;
+                margin-top: 34px;
+            }
+        }
+        &__right{
+            display: flex;
+            margin-right: 24px;
+            img{
+                width: 24px;
+                height: 24px;
+                margin-left: 19px;
+                margin-top: 33px;
+            }
+            p{
+                font-family:$font-family-poppins;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                color:$text-color-grey;
+                margin-left: -15px;
+                margin-top: 34px;
+            }
+        }
     }
 }
