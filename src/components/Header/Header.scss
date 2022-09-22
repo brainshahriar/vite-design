@@ -4,6 +4,9 @@
     height: 576px;
     width: 100%;
     background-color:$header-background;
+    @include media-max(768px){
+        height: 950px;
+    }
     &__navbar{
         display: flex; 
         justify-content: space-between;
@@ -57,5 +60,8 @@
     &__body{
         display: flex;
         justify-content: space-around;
+        @include media-max(768px){
+            display: inline;
+        }
     }
 }
